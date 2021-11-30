@@ -1,6 +1,6 @@
 body {
     background-color: #037971;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace,Arial;
     font-size: 18px;
     padding: 0px;
     margin: 0px;
@@ -29,8 +29,19 @@ header {
     margin-top: 80px;
     margin-left: 15px;
     margin-right: 15px;
-    padding: 1px 30px 30px 30px;
+    max-width: 100%;
+    padding: 30px;
     background-color: #023436;
+}
+
+.full_name{
+    color: #00bfb3;
+    font-family:'Lucida Sans';
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 45px;
+    max-width: 100%;
+    top: 0px;
 }
 
 .main img {
@@ -43,11 +54,11 @@ header {
 }
 
 .main-right {
+    width: 100%;
     display: inline-block;
     font-family: monospace;
     line-height: 2.5em;
     color: #00bfb3;
-    margin-right: auto;
 }
 
 .main-right a{
@@ -60,6 +71,13 @@ header {
     background-color:#03b5aa ;
 }
 
+.links ul {
+    font-style: normal;
+    padding: 30px 0px;
+    line-height: 20px;
+    margin-top: 5.5%;
+}
+
 #linkedin {
     color: #0072b1;
 }
@@ -68,18 +86,24 @@ header {
     color: #211F1F;
 }
 
-.full_name{
+.habilities {
     color: #00bfb3;
-    font-family:'Lucida Sans';
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 45px;
+    text-align: left;
 }
 
-.main_hability {
-    font-size: 1.75em;
+.main_habilities {
+    border-radius: 5%;
+    padding: 0px 0px  59px 20px;
+    /*background-color: #037971;*/
+    max-width: 45%;
+    float: left;
+    margin-right: 40px;
 }
 
-.main_hability2 {
-    font-size: 1.5em;
+.other_habilities {
+    border-radius: 5%;
+    display: inline-block;
+    max-width: 100%;
+    padding: 0px 40px;
+    /*background-color: #037971;*/
 }
