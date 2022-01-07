@@ -1,0 +1,123 @@
+body {
+  background-color: #037971;
+  font-family: monospace,Arial;
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  font-style: italic;
+}
+
+header {
+  position: fixed;
+  width:100%;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  border-style: groove;
+  top: 0px;
+}
+
+.header-links li, a{
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 100%;
+  padding: 30px;
+  background-color: #023436;
+}
+
+#full-name{
+  color: #00bfb3;
+  font-family:'Lucida Sans';
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 45px;
+  max-width: 100%;
+}
+
+#profile-picture {
+  height: 300px;
+  padding: 10px;
+  background-color: #03b5aa;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 100%;
+  height: 320px;
+  color: #00bfb3;
+  font-family: monospace;
+}
+
+#description {
+  margin-left: 20px;
+  width: 100%;
+}
+
+#description a {
+  line-height: 2.5em;
+  color: #2fc18c;
+  text-decoration: none;
+}
+
+#links {
+  align-self: flex-end;
+  width: 100%;
+  text-decoration: none;
+  background-color:#03b5aa;
+}
+
+#links ul {
+  font-style: normal;
+  line-height: 2em;
+  list-style-type: none;
+}
+
+#linkedin {
+  color: #0072b1;
+}
+
+#github {
+  color: #211F1F;
+}
+
+section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+#habilities {
+  color: #00bfb3;
+  text-align: left;
+}
+
+#main-habilities {
+  border-radius: 5%;
+  padding: 0px 0px  59px 20px;
+  max-width: 45%;
+  float: left;
+  margin-right: 40px;
+}
+
+#other-habilities {
+  border-radius: 5%;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0px 40px;
+}
