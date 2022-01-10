@@ -30,6 +30,7 @@ header {
   margin-left: 15px;
   margin-right: 15px;
   max-width: 100%;
+  min-width: fit-content;
   padding: 30px;
   background-color: #023436;
 }
@@ -52,6 +53,10 @@ header {
 .main-content {
   display: flex;
   flex-flow: row nowrap;
+}
+
+.main-right {
+  min-width: 300px;
 }
 
 .info {
