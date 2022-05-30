@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/app-toot-name/static/css/main.d3a1499c.css",
+    "main.js": "/app-toot-name/static/js/main.e4642d68.js",
+    "static/js/787.566daf7e.chunk.js": "/app-toot-name/static/js/787.566daf7e.chunk.js",
+    "static/media/MinhaFoto.jpeg": "/app-toot-name/static/media/MinhaFoto.558363fa18c0b085db5e.jpeg",
+    "index.html": "/app-toot-name/index.html",
+    "static/media/github.svg": "/app-toot-name/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
+    "static/media/linkedin.svg": "/app-toot-name/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "static/media/menu.svg": "/app-toot-name/static/media/menu.ade6d405d26593298f870cf21300f666.svg",
+    "main.d3a1499c.css.map": "/app-toot-name/static/css/main.d3a1499c.css.map",
+    "main.e4642d68.js.map": "/app-toot-name/static/js/main.e4642d68.js.map",
+    "787.566daf7e.chunk.js.map": "/app-toot-name/static/js/787.566daf7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3a1499c.css",
+    "static/js/main.e4642d68.js"
+  ]
+}
