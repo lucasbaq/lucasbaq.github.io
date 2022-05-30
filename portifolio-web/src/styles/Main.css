@@ -3,7 +3,7 @@ main {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   width: 600px;
   font-weight: 600;
   font-size: 1.25em;

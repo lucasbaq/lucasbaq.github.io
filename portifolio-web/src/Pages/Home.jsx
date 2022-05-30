@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from '../components/Socials';
+import Socials from '../components/Socials';
 import Header from '../components/Header';
 import Main from '../components/Main';
 
@@ -8,7 +8,7 @@ function Home() {
   <div className="App">
     <Header />
     <Main />
-    <Footer />
+    <Socials />
   </div>
   );
 }

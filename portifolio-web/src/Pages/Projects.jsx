@@ -5,7 +5,7 @@ function Projects() {
   return (
     <>
       <Header />
-      <p>temp</p>
+      <p>Em construção</p>
     </>
   );
 }
