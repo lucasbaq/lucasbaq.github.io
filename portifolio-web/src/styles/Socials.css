@@ -1,0 +1,31 @@
+.socials {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-size: 1.8em;
+}
+
+nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.github-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.github-btn > img {
+  height: 50px;
+}
+
+.linkedin-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.linkedin-btn > img {
+  height: 50px;
+}
