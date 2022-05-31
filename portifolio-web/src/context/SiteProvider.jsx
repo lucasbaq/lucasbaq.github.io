@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import propTypes from 'prop-types';
 import SiteContext from './SiteContext';
 
 function SiteProvider({ children }) {
+  const [currProject, setCurrProject] = useState('');
+
   const contextValue = {
-    temp: 'temp',
+    currProject,
+    setCurrProject,
   }
   return (
     <SiteContext.Provider value={ contextValue }>

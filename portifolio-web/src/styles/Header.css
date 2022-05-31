@@ -97,7 +97,7 @@ header > button {
     transform: scale(1.01);
   }
   100% {
-    background-color: rgba(206, 203, 203, 0.5);;
+    background-color: rgba(206, 203, 203, 0.5);
     transform: scale(1.01);
   }
 }

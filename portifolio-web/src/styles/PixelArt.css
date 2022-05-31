@@ -1,0 +1,47 @@
+.pixel-art {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 50px;
+  align-items: center;
+}
+
+.pixel-art > input {
+  width: 40%;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.pixel-art > button {
+  width: 20%;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.pixel-art > p {
+  color: rgba(58, 57, 57, 0.8);
+}
+
+.color-picker-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.color-picker {
+  width: 40px;
+  height: 40px;
+  border: 2px black solid;
+  cursor: pointer;
+}
+
+.canvas-square {
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+}
+
+.canvas-line {
+  display: flex;
+  flex-flow: row;
+}

@@ -1,0 +1,41 @@
+.cards-container {
+  margin-top: 200px;
+  padding: 50px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  border: 2px transparent solid;
+}
+
+.card img {
+  width: 100px;
+  border: 1px black solid;
+}
+
+.card > button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.card:hover {
+  animation: highlight 1000ms forwards;
+}
+
+@keyframes highlight {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: rgba(206, 203, 203, 0.5);
+    border: 2px rgba(206, 203, 203, 0.8) solid;
+  }
+}
